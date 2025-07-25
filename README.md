@@ -80,11 +80,14 @@ A análise dos **Prazos de Entrega** revelou que:
 
 - **Categorias com maior tempo médio de entrega**: 
   - *"moveis_escritorio"* e *"artigos_de_natal"* possuem maior tempo médio de entrega (aproximadamente 20 dias).
+
+![Tempo Médio de Entrega por Categoria](./imagens/tempo-medio-de-entrega-por-categoria.png)
+
 - A análise do **Percentual de Atrasos por Categoria** indicou que:
   - A categoria *"casa_conforto_2"* tem o maior percentual de atrasos.
   - Produtos de grande volume e peso enfrentam mais dificuldades logísticas, o que impacta nos atrasos.
   
-![Tempo Médio de Entrega por Categoria](./imagens/tempo-medio-de-entrega-por-categoria.png)
+![Maior tempo de médio de Entrega](./imagens/maior-percentual-atraso-entrega.png)
 
 ### 4.3. Satisfação do Cliente
 
@@ -106,10 +109,31 @@ A análise de **Lucro Estimado por Categoria** mostrou que:
 
 ### 4.5. Análise Extra: Avaliações Extremas
 
-A análise de **Avaliações Extremas** indicou que:
+A análise de **Avaliações Extremas** indicou:
 
-- As categorias **"beleza_saude"** e **"cama_mesa_banho"** têm as melhores avaliações médias.
-- **"automotivo"** e **"fashion_calçados"** apresentam as piores avaliações médias.
+### **- Top 5 Categorias Mais Bem Avaliadas**
+
+As categorias com maior média de avaliação (acima de 4,7) incluem:
+
+- cds_dvds_musicais;
+- fashion_roupa_infanto_juvenil;
+- livros_interesse_geral;
+- construcao_ferramentas_ferramentas;
+- flores.
+
+Produtos que geralmente costumam ser leves, fáceis de entregar e com menor chance de erro na entrega, o que contribui para altas avaliações.
+
+### **- Top 5 Categorias com Piores Avaliações**
+
+Já as categorias com notas médias mais baixas (próximas de 3,5 ou menos) incluem:
+
+- seguros_e_servicos;
+- fraldas_higiene;
+- portateis_cozinha_e_preparadores_de_alimentos;
+- pc_gamer.
+- moveis_escritorio
+
+Nesses casos, podem ocorrer mais problemas de funcionamento, atraso, montagem ou expectativas frustradas com a entrega e uso, afetando diretamente a nota.
 
 ![Gráfico de Avaliações Extremas](./imagens/avaliacoes-extremas-por-categoria.png)
 
